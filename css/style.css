@@ -42,13 +42,20 @@ main {
   margin-top: 30px;
   justify-content: space-around;
   gap: 30px;
-  width: 80%; 
+  width: 68.5% 
+}
+
+.fsb img {
+  margin: 0 auto;
 }
 
 
 .ipsum {
    display: flex;
    flex-direction: column;
+   margin: 0;
+   height: 370px;
+   overflow: auto;
 }
 
 .ipsum h2 {
@@ -56,11 +63,20 @@ main {
 }
 
 .ipsum button {
-   flex-direction: row;
-   margin-right: 500px;
-   height: 30px; 
-   transition-duration: 350ms;
+  display: flex;
+  flex-direction: row;
+  background-color: grey;
+  text-align: center;
+  color: white;
+  height: 30px;
+  width: 150px;
+  cursor: pointer;
+  transition: background-color 0.35s ease;
 }
+button:hover {
+  background-color: #2980b9;
+}
+
 
 footer {
   background-color: grey;
