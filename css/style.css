@@ -5,6 +5,7 @@ header {
 nav {
   display: flex;
   align-items: center;
+  justify-content: space-around;
   padding: 10px;
 }
 
@@ -13,6 +14,58 @@ nav a {
   color: black
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero {
+  display: flex;
+  margin-top: 30px;
+  justify-content: space-around;
+  width: 100%; 
+}
+
+.three-subs {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.fsb {
+  display: flex;
+  margin-top: 30px;
+  justify-content: space-around;
+  gap: 30px;
+  width: 80%; 
+}
+
+
+.ipsum {
+   display: flex;
+   flex-direction: column;
+}
+
+.ipsum h2 {
+   font-size: larger;
+}
+
+.ipsum button {
+   flex-direction: row;
+   margin-right: 500px;
+   height: 30px; 
+   transition-duration: 350ms;
+}
+
 footer {
   background-color: grey;
+  width: 100%;
+  padding: 50px;
+  margin-top: 30px;
+  display: flex;
 }
